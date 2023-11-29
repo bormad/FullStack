@@ -21,3 +21,5 @@ const UserShema = new mongoose.Schema(
 		timestamps: true
 	}
 );
+
+export default mongoose.model('User', UserShema);
